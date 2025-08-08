@@ -1,0 +1,4 @@
+<start of description>
+The image displays a flowchart with five vertical sections, each representing different departments: CUSTOMER at the top left
+corner is pink, SALES in the middle on yellow background, STOCKS to its right on blue, FINANCE below it on green. The
+horizontal arrows indicate processes from one stage

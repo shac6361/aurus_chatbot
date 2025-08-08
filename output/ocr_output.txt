@@ -1,0 +1,1 @@
+1 1 Place a Praduct Confirm if order is received Check the inventory No Is the product in stock?
