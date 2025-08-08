@@ -118,3 +118,22 @@ Uses Ollama to run vision-language models locally.
 The minicpm-v model is designed for image understanding.
 
 Only one response is saved (from the last file), unless the append mode is used.
+
+## Models:
+
+| Model                  | Swimlane/Flowchart Interpretation                                                   | OCR Accuracy | Contextual Reasoning | Latency (Inference Speed) | Recommended Use Case                                                            |
+| ---------------------- | ----------------------------------------------------------------------------------- | ------------ | -------------------- | ------------------------- | ------------------------------------------------------------------------------- |
+| **Gemma 3**            | High – good structural parsing and context linking                                  | High         | High                 | Medium                    | Balanced choice for general-purpose diagram + text understanding                |
+| **LLaVA**              | Medium – strong at descriptive Q\&A but less specialized for structural layouts     | Medium       | High                 | Medium                    | Visual reasoning tasks where detailed explanations are required                 |
+| **MiniCPM-V**          | High – optimized OCR and diagram reading, even on-device                            | Very High    | High                 | Very Low                  | Mobile/edge deployment for high-speed diagram text extraction                   |
+| **Llama 3.2-Vision**   | High – excels at integrating text + visual context in reasoning                     | High         | Very High            | Medium-High               | Complex multi-step reasoning over diagrams and related text                     |
+| **BakLLaVA**           | Medium – solid multimodal pipeline, but less optimized for fine-grained diagram OCR | Medium       | Medium-High          | Medium                    | General multimodal image-to-text workflows                                      |
+| **Granite 3.2-Vision** | Very High – specialized for document/diagram parsing                                | High         | High                 | Medium                    | Enterprise workflows requiring structured data extraction from complex diagrams |
+
+## References:
+
+ollama.com
+chat.mistral.ai
+https://openwebui.com/
+https://yunhefeng.me/material/GenFlowchart.pdf
+https://huggingface.co/docs/transformers/en/model_doc/pix2struct#transformers.Pix2StructProcessor
